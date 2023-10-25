@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Reservas </title>
+    <link rel="stylesheet" href="../Main/main.css">
+</head>
+<body>
+    <header>
+        <img class="logoprincipal" src="../Pics/logo proyecto.png" alt="logotipo">
+       
+        <nav>
+            <ol class="menu">
+                  <a class="menuItem" href="../index.html">Inicio</a>
+                  <a class="menuItem" href="./nosotros.html">Nosotros</a>
+                  <a class="menuItem" href="./servicios.html">Servicios</a>
+                  <a class="menuItem" href="./reservas.html">Reservas</a>
+                  <a class="menuItem" href="./contacto.html">Contacto</a>
+                  <hr class="lineaseparadora">
+            </ol>
+    </header>
+    <main>
+        <div>
+            <p class="tituloreservas">Reserva Turno</p>
+        </div>
+        <div id="formularioreservas">
+            <form>
+                <label for="nombre">Nombre y Apellido:</label>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+            
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" required><br><br>
+            
+                <label for="fecha">Fecha:</label>
+                <input type="date" id="fecha" name="fecha" required><br><br>
+            
+                <label for="comentario">Comentario:</label><br>
+                
+               
+            <textarea id="comentario" name="comentario" rows="6" cols="25" required></textarea><br><br>
+            
+                
+            
+            <input id="botonreservar" type="submit" value="Reservar">
+            </form>
+
+            <table id="tablaservicios" border="1"> <!--tabla-->
+                <tr><!--linias-->
+                <th>Servicios</th><!--encabezado de la tabla-->
+                </tr>
+                <tr>
+                    <td>Terapias de Relajacion</td>
+                </tr>
+                <tr>
+                    <td>Tratamientos Faciales</td>
+                </tr>
+                <tr>
+                    <td>Cuidado de Manos y Pies</td>
+                </tr>
+                <tr>
+                    <td>Quiropraxia</td>
+                </tr>
+            </table>
+        </div>
+
+        
+    </main>
+</body>
+</html>

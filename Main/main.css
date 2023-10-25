@@ -1,0 +1,199 @@
+@font-face {
+    font-family: "dancing";
+    src: url(../Fonts/DancingScript-VariableFont_wght.ttf);
+    /*titulos y subtitulos*/
+}
+
+@font-face {
+    font-family: "latoitalic";
+    src: url(../Fonts/Lato-LightItalic.ttf);
+    /*contenido en general*/
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(255, 255, 255);
+}
+.titulo1 {
+    font-family:'dancing';
+    font-size: 34px;
+    text-decoration: none;
+    display: inline;
+}
+.subtitulo {
+    font-family:"latoitalic";
+    font-size: 24px;
+    text-decoration: none;
+}
+.menu {
+    text-align: center;
+    margin-top: 2rem;
+}
+.logoprincipal {
+    position: absolute; /* Fija la posición del logotipo */
+    top: 10px; /* Lo coloca en la parte superior */
+    left: 5rem; /* Lo coloca en la parte izquierda */
+    width: 165px; /* Establece el ancho del logotipo */
+    height: 125px; /* Establece la altura del logotipo */
+}
+.menuItem {
+    font-family: "latoitalic";
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 24px;
+   
+}
+.lineaseparadora{
+    border: 4px solid #61c0c3; /* Ancho del borde y color de la línea */
+    margin: 20px auto; /* Margen superior e inferior para centrar la línea horizontalmente */
+    width: 60%; /* Ancho de la línea en relación al contenedor padre */
+}
+
+.contenedorprincpal{
+    text-align: center;
+
+}
+.imagenprincipal{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+    width: 1100px;
+    height: 700px;
+}
+.textofooter{
+    font-family: "latoitalic";
+    text-align: center;
+    margin: 1%;
+    font-size: 20px;
+}
+.titulonosotros{
+font-family: "dancing";
+text-align: center;
+font-size: 34px;
+margin: 1rem;
+padding: 1rem;
+font-weight: bolder;
+}
+#contenidonosotros1{
+    font-family: "laloitalic";
+    font-size: 22px;
+    text-align: justify;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.tituloservicios{
+    font-family: "dancing";
+    text-align: center;
+    font-size: 34px;
+    margin: 1rem;
+    padding: 1rem;
+    font-weight: bolder;
+}
+.contenedortratamientos{
+    display: flex;
+}
+.imgrelajacion{
+    height: 120px;
+    width: 120px;
+    margin-left: 250px;
+    margin-right: 120px;
+}
+.imgfaciales{
+    height: 120px;
+    width: 120px;
+    margin-right: 120px;
+}
+.imgmanosypies{
+    height: 120px;
+    width: 120px;
+    margin-right: 120px;
+}
+.imgquiropraxia{
+    height: 120px;
+    width: 120px;
+}
+.contenedordescripciones{
+    display: flex;
+}
+#relajacion{
+    font-family: "laloitalic";
+    font-size: 20px;
+    text-align: start;
+    padding: 1%;
+    margin-left: 200px;
+    max-width: 220px;
+    margin-right: 25px;
+}
+#faciales{
+    font-family: "laloitalic";
+    font-size: 20px;
+    text-align: start;
+    padding: 1%;
+    max-width: 220px;
+    margin-right: 25px;
+}
+#manosypies{
+    font-family: "laloitalic";
+    font-size: 20px;
+    text-align: start;
+    padding: 1%;
+    max-width: 220px;
+    margin-right: 25px;
+}
+#quiropraxia{
+    font-family: "laloitalic";
+    font-size: 20px;
+    text-align: start;
+    padding: 1%;
+    max-width: 220px;
+    margin-right: 25px;
+}
+.tituloreservas{
+    font-family: "dancing";
+    text-align: center;
+    font-size: 34px;
+    margin: 1rem;
+    padding: 1rem;
+    font-weight: bolder;
+}
+#formularioreservas{
+    margin-left: 120px;
+    display: flex;
+    font-family: "laloitalic";
+    font-size: 20px;
+    
+}
+#botonreservar{
+    padding: 2%;
+    margin-left: 550px;
+}
+#tablaservicios{
+    margin-left: 200px;
+}
+#imagenprincipaldecontactos{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    width: 1100px;
+    height: 200px;
+}
+#informaciondecontacto{
+    font-family: "laloitalic";
+    font-size: 20px;
+    margin-left: 120px;
+    margin-top: 2%;
+}
+#map{
+    display: block;
+    margin-left: 800px;
+    margin-right: auto;
+    width: 250px;
+    height: 225px;
+    margin-top: -13rem;
+}
