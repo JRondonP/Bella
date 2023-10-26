@@ -28,22 +28,21 @@ body {
     font-size: 24px;
     text-decoration: none;
 }
-.menu {
-    text-align: center;
-    margin-top: 2rem;
+.logocontenedor {
+    margin-left: 4rem;
 }
 .logoprincipal {
-    position: absolute; /* Fija la posición del logotipo */
-    top: 10px; /* Lo coloca en la parte superior */
-    left: 5rem; /* Lo coloca en la parte izquierda */
-    width: 165px; /* Establece el ancho del logotipo */
-    height: 125px; /* Establece la altura del logotipo */
+    width: 25vh;
+    height: 20vh;
+    display: flex;
 }
-.menuItem {
+.menuitem {
     font-family: "latoitalic";
     text-decoration: none;
-    padding: 1rem;
+    padding: 5%;
+    border: 5%;
     font-size: 24px;
+    margin-left: 10%;
    
 }
 .lineaseparadora{
@@ -58,7 +57,7 @@ body {
 }
 .imagenprincipal{
 
-    display: block;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
     margin-top: 120px;
