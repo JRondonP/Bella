@@ -222,8 +222,8 @@ color:#61c0c3;
     padding: 20px;
     background-color: #61c0c3;
 }
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
     .grid-item{
-        background-color: red;
+        background-color: rgb(255, 208, 0);
     }
 }
