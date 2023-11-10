@@ -17,12 +17,28 @@
   width: 100%;
 }
 
-.mapa {
+.footer {
+  font-size: x-large;
+  height: 10vh;
   display: flex;
+  width: 100%;
+  margin: 0;
+  position: fixed;
+  bottom: 0;
+  padding: 0;
+  justify-content: center;
+  background-color: #61c0c3;
+}
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
 }
 
-#map {
-  margin-top: 2%;
+.footer-t {
+  background-color: #61c0c3;
 }
 
 #tablaservicios {
@@ -72,20 +88,13 @@
   height: 20%;
 }
 
-.inputcontacto[type=submit] {
-  background-color: #0073e6;
-  color: #fff;
-  padding: 20% 20%;
-  border: none;
-  cursor: pointer;
-}
-
 .contenedorservicios {
   display: flex;
 }
 
 #formularioreservas {
   margin: 0;
+  margin-bottom: 6%;
   padding: 0;
   font-size: x-large;
   width: 100%;
@@ -102,10 +111,16 @@
   display: flex;
   width: 100%;
   height: 100%;
+  margin-bottom: 5%;
 }
 
 .map-container {
   width: 70%;
+  margin-bottom: 3%;
+}
+
+#map {
+  margin-top: 2%;
 }
 
 .titulos {
@@ -132,11 +147,6 @@
   font-size: x-large;
 }
 
-.textofooter {
-  text-align: center;
-  font-size: x-large;
-}
-
 #contenidonosotros1 {
   font-size: x-large;
   text-align: justify;
@@ -145,7 +155,7 @@
 }
 
 #relajacion, #faciales, #manosypies, #quiropraxia {
-  margin: 0;
+  margin: 0% 5% 5% 5%;
   padding: 20px;
   font-size: x-large;
   text-align: justify;
@@ -159,8 +169,45 @@
   display: flex;
   width: 100%;
   height: 100%;
+  margin-bottom: 10;
+  animation: bounce-in-top 1.1s both;
 }
-
+@keyframes bounce-in-top {
+  0% {
+    transform: translateY(-500px);
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+  38% {
+    transform: translateY(0);
+    animation-timing-function: ease-out;
+    opacity: 1;
+  }
+  55% {
+    transform: translateY(-65px);
+    animation-timing-function: ease-in;
+  }
+  72% {
+    transform: translateY(0);
+    animation-timing-function: ease-out;
+  }
+  81% {
+    transform: translateY(-28px);
+    animation-timing-function: ease-in;
+  }
+  90% {
+    transform: translateY(0);
+    animation-timing-function: ease-out;
+  }
+  95% {
+    transform: translateY(-8px);
+    animation-timing-function: ease-in;
+  }
+  100% {
+    transform: translateY(0);
+    animation-timing-function: ease-out;
+  }
+}
 .imgrelajacion {
   width: 10vh;
   border: 1%;
@@ -198,14 +245,29 @@
   margin: 3%;
   padding: 2%;
   justify-content: center;
+  padding: 10px 20px;
+  transition-duration: 1s;
+  transition-delay: 1s;
+  color: #000000;
+}
+
+.inputreserva:hover {
+  background-color: #0073e6;
+  color: rgb(255, 255, 255);
 }
 
 .inputcontacto[type=submit] {
-  background-color: #0073e6;
-  color: #fff;
+  color: #000000;
   padding: 10px 20px;
   border: none;
   cursor: pointer;
+  transition-duration: 1s;
+  transition-delay: 1s;
+}
+
+.inputcontacto:hover[type=submit] {
+  background-color: #0073e6;
+  color: rgb(255, 255, 255);
 }
 
 @media (max-width: 720px) {
